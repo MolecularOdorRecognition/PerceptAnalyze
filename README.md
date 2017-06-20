@@ -10,3 +10,8 @@ Python Installed on PC preferably(Python 3.5 or Python 3)
 flavornetPercepts.csv in your path
 
 superscentPercepts.csv in your path
+
+# For Python 2.7
+Change urllib.request to urllib everywhere in the program
+
+Remove encoding="utf8" everywhere in the program
