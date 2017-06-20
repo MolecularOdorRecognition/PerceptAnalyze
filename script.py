@@ -20,8 +20,8 @@ except IOError as io:
 
 
 try:
-    target2 = open('json.txt', 'w')
-    target = open('newjson.txt', 'w')  # creating files to write
+    target = open('newjson.txt', 'w')
+    target2 = open('json.txt', 'w')       # creating files to write
 except OSError as err:
     logger.error("OS error: {0}".format(err))
 except IOError as io:
@@ -66,8 +66,8 @@ class Encoder(json.JSONEncoder):
 
 # For all words in xp
 for i in range(len(xp)):
-    target2 = open('json.txt', 'r')
     target = open('newjson.txt', 'r')
+    target2 = open('json.txt', 'r')
     logger.info('downloading '+xp[i]) # downloading from googlebooks dataset
     try:
         urllib.request.urlretrieve("http://storage.googleapis.com/books/ngrams/books/googlebooks-eng-all-2gram-20120701-"+xp[i]+".gz", xp[i]+".gz")
@@ -120,9 +120,9 @@ for i in range(len(xp)):
         logger.error("OS error: {0}".format(err))
     except IOError as io:
         logger.error("IO Erroe", io)
-
-    target2 = open('json.txt', 'w')
+    
     target = open('newjson.txt', 'w')
+    target2 = open('json.txt', 'w')
     jso = json.dumps(search, cls=Encoder)  # dumping dict into json
     jsooo = json.dumps(search2, cls=Encoder)
     target2.truncate()
