@@ -33,4 +33,20 @@ The final output in JSON format for flavornetPercepts will be in json.txt and fo
 
 Run this after running script.py
 
+Additional Requirements/Dependecies
+
+pip install nwteorkx
+
+
+
+Open Command Prompt
+
+cd to the loaction of code and PerceptualEdges files
+
+type "python graph.py"
+
+THE CODE WILL START
+
+The final output similarity comparing Superscent and Flavournet will be printed on screen 
+
 
