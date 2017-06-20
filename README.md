@@ -8,7 +8,7 @@ Google N-gram dataset link http://storage.googleapis.com/books/ngrams/books/data
 # NOTE (Your files and code should be in the same folder or place)
 Python Installed on PC preferably(Python 3.5 or Python 3)
 
-2 .csv perceptual data files for example here they are flavornetPercepts.csv & superscentPercepts.csv
+Two .csv perceptual data files for example here they are flavornetPercepts.csv & superscentPercepts.csv
 
 # For Python 2.7
 Change urllib.request to urllib everywhere in the program
@@ -28,3 +28,9 @@ THE CODE WILL START
 The errors and information will be logged in sample.log file which will be automatically created in the same folder
 
 The final output in JSON format for flavornetPercepts will be in json.txt and for superscentPercepts will be in newjson.txt
+
+# For running graph.py (Data Analysis)
+
+Run this after running script.py
+
+
