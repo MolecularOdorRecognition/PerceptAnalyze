@@ -36,6 +36,7 @@ Run this after running script.py
 Additional Requirements/Dependecies
 
 pip install networkx
+Two .csv perceptualEdges files i.e in this case edgesFlav.csv and edgesSuperSc.csv 
 
 
 
