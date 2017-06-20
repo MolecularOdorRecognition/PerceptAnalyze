@@ -35,7 +35,7 @@ Run this after running script.py
 
 Additional Requirements/Dependecies
 
-pip install nwteorkx
+pip install networkx
 
 
 
