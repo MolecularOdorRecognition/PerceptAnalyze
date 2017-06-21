@@ -40,6 +40,8 @@ pip install networkx
 Two .csv perceptualEdges files i.e in this case edgesFlav.csv and edgesSuperSc.csv 
 
 
+Also Added newjson.txt and json.txt for Reference
+
 Open Command Prompt
 
 cd to the loaction of code and PerceptualEdges files
@@ -49,5 +51,6 @@ type "python graph.py"
 THE CODE WILL START
 
 The final output similarity comparing Superscent and Flavournet will be printed on screen 
+
 
 
