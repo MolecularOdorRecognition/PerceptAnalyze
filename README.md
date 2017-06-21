@@ -37,7 +37,10 @@ Additional Requirements/Dependecies
 
 pip install networkx
 
+Two .csv perceptualEdges files i.e in this case edgesFlav.csv and edgesSuperSc.csv 
 
+
+Also Added newjson.txt and json.txt for Reference
 
 Open Command Prompt
 
@@ -49,4 +52,8 @@ THE CODE WILL START
 
 The final output similarity comparing Superscent and Flavournet will be printed on screen 
 
+# Final Results Obtained were
+
+Similarity[0,inf) in Flavournet Graphs is  23903599.9347
+Similarity[0,inf) in Superscent Graphs is  38827186.0992
 
