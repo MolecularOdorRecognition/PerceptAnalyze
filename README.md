@@ -11,7 +11,7 @@ Python Installed on PC preferably(Python 3.5 or Python 3)
 Two .csv perceptual data files for example here they are flavornetPercepts.csv & superscentPercepts.csv
 
 # For Python 2.7
-Change urllib.request to urllib everywhere in the program
+Change urllib.request to urllib everywhere in the program (As it was shifted in Python 3)
 
 Remove encoding="utf8" everywhere in the program
 
@@ -57,3 +57,21 @@ The final output similarity comparing Superscent and Flavournet will be printed 
 Similarity[0,inf) in Flavournet Graphs is  23903599.9347
 Similarity[0,inf) in Superscent Graphs is  38827186.0992
 
+
+# For running newscript.py (Data extraction for Stem Words)
+
+You Will need word.csv file
+
+# STEM WORDS are words whose all kind of occurances we want to find like taint* will include taint,tainted,tainting......
+
+Open Command Prompt
+
+cd to the loaction of code and word.csv file
+
+type "python newscript.py"
+
+THE CODE WILL START
+
+The errors and information will be logged in log.out file which will be automatically created in the same folder
+
+The final output in JSON format for word will be in newjson.txt 
