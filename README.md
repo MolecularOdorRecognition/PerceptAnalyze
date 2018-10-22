@@ -11,7 +11,7 @@ Python Installed on PC preferably(Python 3.5 or Python 3)
 Two .csv perceptual data files for example here they are flavornetPercepts.csv & superscentPercepts.csv
 
 # For Python 2.7
-Change urllib.request to urllib everywhere in the program (As it was shifted in Python 3)
+Change urllib.request to urllib everywhere in the program
 
 Remove encoding="utf8" everywhere in the program
 
